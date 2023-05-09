@@ -43,6 +43,10 @@ namespace InstanceVariablePract32
             {
                 Console.WriteLine(student.ToString());
             }
+            foreach(Student student in list2)
+            {
+                Console.WriteLine(student.ToString());
+            }
 
         }
     }
