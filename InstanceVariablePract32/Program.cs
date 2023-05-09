@@ -32,6 +32,17 @@ namespace InstanceVariablePract32
             list.Add(new Student() { name = "백지민", grade = 3 });
             list.Add(new Student() { name = "권하은", grade = 2 });
             list.Add(new Student() { name = "김선혜", grade = 1 });
+            
+            List<Student> list2 = new List<Student>();
+            //list.Add(product); //안 됨
+            list.Add(new Student() { name = "백지민", grade = 3 });
+            list.Add(new Student() { name = "권하은", grade = 2 });
+            list.Add(new Student() { name = "김선혜", grade = 1 });
+
+            foreach(Student student in list)
+            {
+                Console.WriteLine(student.ToString());
+            }
 
         }
     }
